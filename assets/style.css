@@ -57,12 +57,14 @@ nav ul li a:hover{
 h1{
     color: rgb(221, 221, 151);
     margin: 20px 0px 20px;
+    
     font-size: 75px;
 }
 h3{
-   color:rgb(238, 235, 221);
+   color:rgb(226, 221, 195);
    font-size: 25px;
    margin-bottom: 50px;
+   
 }
 h4{
     color: rgb(238, 235, 221);
@@ -73,7 +75,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #f5f2c6;
+    background-color: rgb(133, 122, 88);
 }
 .about img{
     height: auto;
@@ -83,12 +85,51 @@ h4{
 .about-text{
     width: 550px;
     margin-left: 25px;
+    color: rgb(221, 221, 151);
+    
 }
-.main {
+.scene {
    width: 1130px;
    max-width: 95%;
    margin: 0 auto; 
    display: flex;
    align-items: center;
    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(221, 221, 151);
+    letter-spacing: 3px;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.work {
+    background:rgb(192, 178, 136);
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+.title h2 {
+    color: rgb(221, 221, 151);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    
 }
